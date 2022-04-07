@@ -1,0 +1,12 @@
+- name: Provision dependencies
+  become: yes
+  hosts: front
+  vars: []
+  roles:
+    - role: case-study-nginx-role.git
+      vars:
+        nginx_approuter_frontend_cluster: ""
+        nginx_approuter_graphql_cluster: ""
+
+
+

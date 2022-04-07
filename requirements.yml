@@ -1,0 +1,3 @@
+- src: git@github.com:ramababubendalam/case-study-nginx-role.git
+  scm: git
+  version: main
